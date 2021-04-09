@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: rgb(29, 26, 26);
+    height: 100%;
+}
+.caixa1, .caixa2 , .caixa3 , .caixa4 , .caixa5 {
+    position: relative;
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.caixa1 {
+    background-image: url(../imagens/a1c9cafb0e239974e853f76e2f16b9bf.jpg);
+}
+
+.caixa2 {
+    background-image: url(../imagens/Back-end-Front-end-blog.jpg);
+}
+.caixa3 {
+    background-image: url(../imagens/criacao-de-sites-pequenas-empresas-1.jpg);
+}
+.caixa4 {
+    background-image: url(../imagens/images.jpeg);
+}
+
+.caixa5 {
+    background-image: url(../imagens/web.png);
+}
+
+span.titulo2 p:hover {
+    
+    padding: 18px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: #111;
+    
+}
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#rodape {
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+}
+
+span.titulo3:hover {
+    padding: 18px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #fff;
+    
+}
